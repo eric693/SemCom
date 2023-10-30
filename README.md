@@ -1,8 +1,17 @@
-# SemanticRL
+# Semantic Communication (SemCom)
+
+<img width="780" alt="nr_protocol" src="https://github.com/eric693/SemCom/assets/75469714/667e902e-73a0-4d73-bfdf-cadbc2f6a765">
+
+<img width="780" alt="convertional_communication" src="https://github.com/eric693/SemCom/assets/75469714/b17406c4-7925-48f2-a8d6-edaa7348ab71">
+
+<img width="781" alt="semantic_communication" src="https://github.com/eric693/SemCom/assets/75469714/8fa9ce52-2da3-4df7-9aa1-1b27e8484ed2">
+
+<img width="781" alt="semantic_communication" src="https://github.com/eric693/SemCom/assets/75469714/9a01084d-4839-47ef-9497-6d9225b6465f">
+
+<img width="780" alt="OAI-flow-chart" src="https://github.com/eric693/SemCom/assets/75469714/99b33fcc-38e9-47e2-903d-ad08021321b1">
 
 
-![](./SemCom.pdf)
-**SemanticRL is designed to preserve the semantic information instead of strictly securing the bit-level precision. It enables a general-purpose, large-scale, wireless, and semantic communication framework.**
+**SemCom is designed to preserve the semantic information instead of strictly securing the bit-level precision. It enables a general-purpose, large-scale, wireless, and semantic communication framework.**
 
 ## Features
 + A schematic shift from bit-precision to semantic consistency.
@@ -57,7 +66,7 @@ Download the pretrained model. Place them into the root directory.
  
 
 ```
-SemanticRL
+SemCom
 ├── ckpt_AWGN_CE_Stage2
 │   └── all checkpoints
 ├── ckpt_AWGN_RL 			  (the second version, see arXiv. trained with shuffle=True)
@@ -95,23 +104,7 @@ Your trained model may behave a little different from ours, but they should be s
 
 Besides `LSTM` backbone, we provide a `Transformer` backbone to facilitate further researches. You can rewrite methods in `model.py` to customize your own framework. SemanticRL is model-agnostic. You may also design any semantic similarity metric to build a customed communication system.
 
-
-## Thanks
-
-This repository is largely inspired by [ruotianluo's excellent captioning work](https://github.com/ruotianluo/ImageCaptioning.pytorch).
-
-
-## Citation
-```
-@article{lu2021reinforcement,
-  title={Reinforcement learning-powered semantic communication via semantic similarity},
-  author={Lu, Kun and Li, Rongpeng and Chen, Xianfu and Zhao, Zhifeng and Zhang, Honggang},
-  journal={arXiv preprint arXiv:2108.12121},
-  url={https://arxiv.org/abs/2108.12121},
-  year={2021}
-}
-```
-
+## Design of generative AI
 
 
 
